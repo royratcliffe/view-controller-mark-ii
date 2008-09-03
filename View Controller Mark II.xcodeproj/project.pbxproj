@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78181A770E680AB500D9DA2F /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78181A760E680AB500D9DA2F /* QTKit.framework */; };
+		78181AD20E680C4600D9DA2F /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78181AD10E680C4600D9DA2F /* Quartz.framework */; };
+		78181AFB0E681F3E00D9DA2F /* LakeDonPedro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78181AF90E681F3E00D9DA2F /* LakeDonPedro.jpg */; };
+		78181AFC0E681F3E00D9DA2F /* adam.mov in Resources */ = {isa = PBXBuildFile; fileRef = 78181AFA0E681F3E00D9DA2F /* adam.mov */; };
+		78181B100E68250F00D9DA2F /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78181B0F0E68250F00D9DA2F /* CustomTableViewController.m */; };
+		78181B140E68261A00D9DA2F /* CustomVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78181B130E68261A00D9DA2F /* CustomVideoViewController.m */; };
+		78B0A5920E66EEE2007E66EF /* CustomCameraView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 78B0A5860E66EEE2007E66EF /* CustomCameraView.nib */; };
+		78B0A5930E66EEE2007E66EF /* CustomImageView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 78B0A5880E66EEE2007E66EF /* CustomImageView.nib */; };
+		78B0A5940E66EEE2007E66EF /* CustomTableView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 78B0A58A0E66EEE2007E66EF /* CustomTableView.nib */; };
+		78B0A5950E66EEE2007E66EF /* CustomVideoView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 78B0A58C0E66EEE2007E66EF /* CustomVideoView.nib */; };
+		78B0A5960E66EEE2007E66EF /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 78B0A58E0E66EEE2007E66EF /* MainMenu.nib */; };
+		78B0A5970E66EEE2007E66EF /* TestWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 78B0A5900E66EEE2007E66EF /* TestWindow.nib */; };
+		78B0A5A10E66EF6F007E66EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B0A5A00E66EF6F007E66EF /* AppDelegate.m */; };
+		78B0A5A70E66F303007E66EF /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B0A5A60E66F303007E66EF /* MyWindowController.m */; };
+		78B97EDF0E67CF7C001AA06B /* CustomImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B97EDE0E67CF7C001AA06B /* CustomImageViewController.m */; };
+		78D977890E6A1E1C00AB1AB5 /* RRViewMetaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D977880E6A1E1C00AB1AB5 /* RRViewMetaController.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* View Controller Mark II_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View Controller Mark II_Prefix.pch"; sourceTree = "<group>"; };
+		78181A760E680AB500D9DA2F /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		78181AD10E680C4600D9DA2F /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		78181AF90E681F3E00D9DA2F /* LakeDonPedro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LakeDonPedro.jpg; sourceTree = "<group>"; };
+		78181AFA0E681F3E00D9DA2F /* adam.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = adam.mov; sourceTree = "<group>"; };
+		78181B0E0E68250F00D9DA2F /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
+		78181B0F0E68250F00D9DA2F /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
+		78181B120E68261A00D9DA2F /* CustomVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomVideoViewController.h; sourceTree = "<group>"; };
+		78181B130E68261A00D9DA2F /* CustomVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomVideoViewController.m; sourceTree = "<group>"; };
+		78B0A5870E66EEE2007E66EF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CustomCameraView.nib; sourceTree = "<group>"; };
+		78B0A5890E66EEE2007E66EF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CustomImageView.nib; sourceTree = "<group>"; };
+		78B0A58B0E66EEE2007E66EF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CustomTableView.nib; sourceTree = "<group>"; };
+		78B0A58D0E66EEE2007E66EF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CustomVideoView.nib; sourceTree = "<group>"; };
+		78B0A58F0E66EEE2007E66EF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		78B0A5910E66EEE2007E66EF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/TestWindow.nib; sourceTree = "<group>"; };
+		78B0A59F0E66EF6F007E66EF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78B0A5A00E66EF6F007E66EF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78B0A5A50E66F303007E66EF /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
+		78B0A5A60E66F303007E66EF /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
+		78B97EDD0E67CF7C001AA06B /* CustomImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageViewController.h; sourceTree = "<group>"; };
+		78B97EDE0E67CF7C001AA06B /* CustomImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageViewController.m; sourceTree = "<group>"; };
+		78D977870E6A1E1C00AB1AB5 /* RRViewMetaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRViewMetaController.h; sourceTree = "<group>"; };
+		78D977880E6A1E1C00AB1AB5 /* RRViewMetaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRViewMetaController.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* View Controller Mark II.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Controller Mark II.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				78181A770E680AB500D9DA2F /* QTKit.framework in Frameworks */,
+				78181AD20E680C4600D9DA2F /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				78D977860E6A1DFB00AB1AB5 /* Meta-Controlling */,
+				78B0A59F0E66EF6F007E66EF /* AppDelegate.h */,
+				78B0A5A00E66EF6F007E66EF /* AppDelegate.m */,
+				78B0A5A50E66F303007E66EF /* MyWindowController.h */,
+				78B0A5A60E66F303007E66EF /* MyWindowController.m */,
+				78B97EDD0E67CF7C001AA06B /* CustomImageViewController.h */,
+				78B97EDE0E67CF7C001AA06B /* CustomImageViewController.m */,
+				78181B0E0E68250F00D9DA2F /* CustomTableViewController.h */,
+				78181B0F0E68250F00D9DA2F /* CustomTableViewController.m */,
+				78181B120E68261A00D9DA2F /* CustomVideoViewController.h */,
+				78181B130E68261A00D9DA2F /* CustomVideoViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78181AD10E680C4600D9DA2F /* Quartz.framework */,
+				78181A760E680AB500D9DA2F /* QTKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* View Controller Mark II.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* View Controller Mark II */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "View Controller Mark II";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* View Controller Mark II_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78181AF90E681F3E00D9DA2F /* LakeDonPedro.jpg */,
+				78181AFA0E681F3E00D9DA2F /* adam.mov */,
+				78B0A5860E66EEE2007E66EF /* CustomCameraView.nib */,
+				78B0A5880E66EEE2007E66EF /* CustomImageView.nib */,
+				78B0A58A0E66EEE2007E66EF /* CustomTableView.nib */,
+				78B0A58C0E66EEE2007E66EF /* CustomVideoView.nib */,
+				78B0A58E0E66EEE2007E66EF /* MainMenu.nib */,
+				78B0A5900E66EEE2007E66EF /* TestWindow.nib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78D977860E6A1DFB00AB1AB5 /* Meta-Controlling */ = {
+			isa = PBXGroup;
+			children = (
+				78D977870E6A1E1C00AB1AB5 /* RRViewMetaController.h */,
+				78D977880E6A1E1C00AB1AB5 /* RRViewMetaController.m */,
+			);
+			name = "Meta-Controlling";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* View Controller Mark II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "View Controller Mark II" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "View Controller Mark II";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "View Controller Mark II";
+			productReference = 8D1107320486CEB800E47090 /* View Controller Mark II.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "View Controller Mark II" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* View Controller Mark II */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* View Controller Mark II */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				78B0A5920E66EEE2007E66EF /* CustomCameraView.nib in Resources */,
+				78B0A5930E66EEE2007E66EF /* CustomImageView.nib in Resources */,
+				78B0A5940E66EEE2007E66EF /* CustomTableView.nib in Resources */,
+				78B0A5950E66EEE2007E66EF /* CustomVideoView.nib in Resources */,
+				78B0A5960E66EEE2007E66EF /* MainMenu.nib in Resources */,
+				78B0A5970E66EEE2007E66EF /* TestWindow.nib in Resources */,
+				78181AFB0E681F3E00D9DA2F /* LakeDonPedro.jpg in Resources */,
+				78181AFC0E681F3E00D9DA2F /* adam.mov in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				78B0A5A10E66EF6F007E66EF /* AppDelegate.m in Sources */,
+				78B0A5A70E66F303007E66EF /* MyWindowController.m in Sources */,
+				78B97EDF0E67CF7C001AA06B /* CustomImageViewController.m in Sources */,
+				78181B100E68250F00D9DA2F /* CustomTableViewController.m in Sources */,
+				78181B140E68261A00D9DA2F /* CustomVideoViewController.m in Sources */,
+				78D977890E6A1E1C00AB1AB5 /* RRViewMetaController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78B0A5860E66EEE2007E66EF /* CustomCameraView.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78B0A5870E66EEE2007E66EF /* English */,
+			);
+			name = CustomCameraView.nib;
+			sourceTree = "<group>";
+		};
+		78B0A5880E66EEE2007E66EF /* CustomImageView.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78B0A5890E66EEE2007E66EF /* English */,
+			);
+			name = CustomImageView.nib;
+			sourceTree = "<group>";
+		};
+		78B0A58A0E66EEE2007E66EF /* CustomTableView.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78B0A58B0E66EEE2007E66EF /* English */,
+			);
+			name = CustomTableView.nib;
+			sourceTree = "<group>";
+		};
+		78B0A58C0E66EEE2007E66EF /* CustomVideoView.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78B0A58D0E66EEE2007E66EF /* English */,
+			);
+			name = CustomVideoView.nib;
+			sourceTree = "<group>";
+		};
+		78B0A58E0E66EEE2007E66EF /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78B0A58F0E66EEE2007E66EF /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		78B0A5900E66EEE2007E66EF /* TestWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78B0A5910E66EEE2007E66EF /* English */,
+			);
+			name = TestWindow.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "View Controller Mark II_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "View Controller Mark II";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "View Controller Mark II_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "View Controller Mark II";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "View Controller Mark II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "View Controller Mark II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

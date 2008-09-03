@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'View Controller Mark II' target in the 'View Controller Mark II' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
